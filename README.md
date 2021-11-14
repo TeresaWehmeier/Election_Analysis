@@ -1,7 +1,7 @@
 # Election Analysis
 
 ## Project Overview
-A Colorado election committe requests a Python to perform an election audit on a local congressional election. The expected results shoud include:
+A Colorado election committe requests an election audit on a local congressional election. The expected results shoud include:
 1. Total votes cast
 2. A list of candidates who received votes.
 3. The total number of votes each candidate received.
