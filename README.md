@@ -8,18 +8,19 @@ A Colorado election commission requests an election audit and analysis of a loca
 - Candidate votes and perentage of total votes
 - Winner of the election with total and percentage of votes
 
-The project requirements include a Python script that reads the election data set and prints the required results to a text file. 
-
 ## Resources
 - Data source: election_results.csv
 - Software: Python 3.9.7; Visual Studio Code 1.6.22
 
 ## Election-Audit Results:
+The project requirements utilize a Python script that reads the election data set, compiles the requested information, and prints the results to a text file and a terminal screen.  
 1. Total votes cast in the congressional election
-2. Breakdown of the number of votes and percentage of total votes for each county in the precinct.
-3. Which county had the largest number of votes?
-4. The total number of votes and percentage each candidate received.
-5. Identify the winner of the election, their vote count and percentage of total votes.
+  - Total votes cast was 369,711. the Python script used to obtain these results is shown in this image:
+     <img src = "Images/python_total_votes_for_statement.png" width = "30%" height = "10%"
+3. Breakdown of the number of votes and percentage of total votes for each county in the precinct.
+4. Which county had the largest number of votes?
+5. The total number of votes and percentage each candidate received.
+6. Identify the winner of the election, their vote count and percentage of total votes.
 
 ## Election-Audit Summary
 The analysis of the election shows:
