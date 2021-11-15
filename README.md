@@ -15,12 +15,15 @@ A Colorado election commission requests an election audit and analysis of a loca
 ## Election-Audit Results:
 The project requirements utilize a Python script that reads the election data set, compiles the requested information, and prints the results to a text file and a terminal screen.  
 1. Total votes cast in the congressional election
-  - Total votes cast was 369,711. the Python script used to obtain these results is shown in this image:
-     <img src = "Images/python_total_votes_for_statement.png" width = "30%" height = "10%"
-3. Breakdown of the number of votes and percentage of total votes for each county in the precinct.
-4. Which county had the largest number of votes?
-5. The total number of votes and percentage each candidate received.
-6. Identify the winner of the election, their vote count and percentage of total votes.
+  - Total votes cast was 369,711. the Python script used to obtain these results is shown in this image; the results are presented in the text file and on the terminal:
+     <img src = "Images/python_total_votes_for_statement.png" width = "30%" height = "10%">
+2. Breakdown of the number of votes and percentage of total votes for each county in the county.
+  - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson, 82.8% (306,055) were from Denver and 6.7% (24,801) were from Arapahoe. The Python code used to derive these results is provided in the image below.
+3. Which county had the largest number of votes?
+  - The county with the largest voter turnout was in Denver County with a turnout rate of 82.8%. The image provided is from the text file, but is also presented on the terminal.
+  <img src = "https://github.com/TeresaWehmeier/Election_Analysis/blob/main/Images/text_file_results_county_with_high_turnout.png" width = "30%" height = "10%">
+7. The total number of votes and percentage each candidate received.
+8. Identify the winner of the election, their vote count and percentage of total votes.
 
 ## Election-Audit Summary
 The analysis of the election shows:
