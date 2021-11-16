@@ -13,23 +13,16 @@ A Colorado election commission requests an election audit and analysis of a loca
 - Software: Python 3.9.7; Visual Studio Code 1.6.22
 
 ### Election-Audit Results:
-The project requirements utilize a Python script that reads the election data set, compiles the requested information, and prints the results to a text file and a terminal screen.  
+The project requirements utilize a Python script that reads the election data set, compiles the requested information, and prints the results to a text file and a terminal screen. 
 1. Total votes cast in the congressional election
   - Total votes cast was 369,711. the Python script used to obtain these results is shown in this image; the results are presented in the text file and on the terminal:
   
      <img src = "Images/python_total_votes_for_statement.png" width = "30%" height = "10%">
      
 2. Breakdown of the number of votes and percentage of total votes for each county in the precint.
-  - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The portion of Python code used to derive these results is provided below.
+  - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The portion of Python code used to derive these results is provided in the image below.
 
-      for county_name in county_votes:
-        **6b: Retrieve the county vote count.**
-        votes_turnout = county_votes.get(county_name)
-        turnout_percent = float(votes_turnout / total_votes) * 100
-        county_results = (
-            f"{county_name}: {turnout_percent:.1f}% and {votes_turnout:,} votes.\n")
-        print(county_results)
-        txt_file.write(county_results)
+  <img src = "Images/python_county_breakdown_election_results2.png" width="40%" height="20%"
   
 3. Which county had the largest number of votes?
   - The county with the largest voter turnout was in Denver County with a turnout rate of 82.8%. The image provided is from the text file, but is also presented on the terminal when running the Python script.
