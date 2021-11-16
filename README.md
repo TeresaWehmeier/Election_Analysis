@@ -33,6 +33,7 @@ The project requirements utilize a Python script that reads the election data se
   - Raymon Anthony Doane received 3.1%, or 11,606 votes
 
 5. Identify the winner of the election, their vote count and percentage of total votes: The winner of the election audit wsa Diana DeGette, with 73.8% (272,892) of the vote. In the image below, the Python code is provided to describe how the results were derived:
+
     <img src = "Images/python_winning_candidate.png" width = "30%" height = "10%">
 
 ## Election-Audit Summary
