@@ -22,19 +22,13 @@ The project requirements utilize a Python script that reads the election data se
 2. Breakdown of the number of votes and percentage of total votes for each county in the precint.
   - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The portion of Python code used to derive these results is provided below.
 
-    # 6a: Write a for loop to get the county from the county dictionary.
-    for county_name in county_votes:
-        # 6b: Retrieve the county vote count.
-        votes_turnout = county_votes.get(county_name)
-        
-        # 6c: Calculate the percentage of votes for the county.
-        turnout_percent = float(votes_turnout / total_votes) * 100
-
-         # 6d: Print the county results to the terminal.
-        county_results = (
-            f"{county_name}: {turnout_percent:.1f}% and {votes_turnout:,} votes.\n")
+      for county_name in county_votes:
+       votes_turnout = county_votes.get(county_name)
+       turnout_percent = float(votes_turnout / total_votes) * 100
+       
+       county_results = (
+          f"{county_name}: {turnout_percent:.1f}% and {votes_turnout:,} votes.\n")
         print(county_results)
-         # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
   
 3. Which county had the largest number of votes?
