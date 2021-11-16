@@ -23,11 +23,11 @@ The project requirements utilize a Python script that reads the election data se
   - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The portion of Python code used to derive these results is provided below.
 
       for county_name in county_votes:
-       votes_turnout = county_votes.get(county_name)
-       turnout_percent = float(votes_turnout / total_votes) * 100
-       
-       county_results = (
-          f"{county_name}: {turnout_percent:.1f}% and {votes_turnout:,} votes.\n")
+        **6b: Retrieve the county vote count.**
+        votes_turnout = county_votes.get(county_name)
+        turnout_percent = float(votes_turnout / total_votes) * 100
+        county_results = (
+            f"{county_name}: {turnout_percent:.1f}% and {votes_turnout:,} votes.\n")
         print(county_results)
         txt_file.write(county_results)
   
