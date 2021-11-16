@@ -19,24 +19,28 @@ The project requirements utilize a Python script that reads the election data se
   
      <img src = "Images/python_total_votes_for_statement.png" width = "30%" height = "10%">
      
-2. Breakdown of the number of votes and percentage of total votes for each county in the county: Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The Python code used to derive these results is provided in the image below.
+2. Breakdown of the number of votes and percentage of total votes for each county in the county.
+  - Three counties had voter returns in the data file provided; they were Jefferson, Denver and Arapahoe. Of the 369,711 votes cast, 10.5% (38,855) were from Jefferson; 82.8% (306,055) were from Denver; and 6.7% (24,801) were from Arapahoe. The Python code used to derive these results is provided in the image below.
 
   <img src = "Images/python_county_breakdown_election_results.png" width = "40%" height = "20%">
   
-3. Which county had the largest number of votes? The county with the largest voter turnout was in Denver County with a turnout rate of 82.8%. The image provided is from the text file, but is also presented on the terminal when running the Python script.
+3. Which county had the largest number of votes?
+  - The county with the largest voter turnout was in Denver County with a turnout rate of 82.8%. The image provided is from the text file, but is also presented on the terminal when running the Python script.
 
   <img src = "Images/text_file_results_county_with_high_turnout.png" width = "30%" height = "10%">
 
-4. The total number of votes and percentage each candidate received: there were three candidates in the election audit. The results by candidate are provided as they appear in the text file and on the terminal screen.
-  - Charles Casper Stockham received 23.0%, or 85,213 votes
-  - Diana DeGette received 73.8%, or 272,892 votes
-  - Raymon Anthony Doane received 3.1%, or 11,606 votes
+4. The total number of votes and percentage each candidate received.
+  - There were three candidates in the election audit. The results by candidate are provided as they appear in the text file and on the terminal screen.
+    - Charles Casper Stockham received 23.0%, or 85,213 votes
+    - Diana DeGette received 73.8%, or 272,892 votes
+    - Raymon Anthony Doane received 3.1%, or 11,606 votes
 
-5. Identify the winner of the election, their vote count and percentage of total votes: The winner of the election audit wsa Diana DeGette, with 73.8% (272,892) of the vote. In the image below, the Python code is provided to describe how the results were derived:
+5. Identify the winner of the election, their vote count and percentage of total votes.
+  - The winner of the election audit wsa Diana DeGette, with 73.8% (272,892) of the vote. In the image below, the Python code is provided to describe how the results were derived:
 
     <img src = "Images/python_winning_candidate.png" width = "30%" height = "10%">
 
-## Election-Audit Summary
+### Election-Audit Summary
 The analysis of the election shows:
 1. There were 369,711 votes cast
 2. The candidates were:
