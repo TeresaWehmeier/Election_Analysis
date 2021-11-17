@@ -36,16 +36,22 @@ The project requirements utilize a Python script that reads the election data se
     - Raymon Anthony Doane received 3.1%, or 11,606 votes
 
 5. Identify the winner of the election, their vote count and percentage of total votes.
-  - The winner of the election audit wsa Diana DeGette, with 73.8% (272,892) of the vote. In the image below, the Python code is provided to describe how the results were derived:
+  - The winner of the election audit was Diana DeGette, with 73.8% (272,892) of the vote. In the image below, the image below is provided to show how the results were derived:
 
   <img src = "Images/python_winning_candidate.png" width = "30%" height = "10%">
 
 ### Text File Results
+An image of the text file is provided to demonstrate the requested output results to a text file.
  
   <img src = "Images/summary_election_audit_text_file.png" width = "30%" height = "10%">
  
+ ### Terminal Results
+ An image of the terminal print results is provided to show the requested output results to the terminal.
+ 
+ <img src = "Images/terminal_view_results.png" width = "20%" height = "10%">
+ 
 ### Election-Audit Summary
-The provided Python code is robust and can be used on a much wider scale. The data provided for this audit included only three counties in the state, but the audit program can accomodate much larger data sets, and should be expanded to all counties in the state.
+The provided Python coded audit application is robust and can be used on a much wider scale. The data provided for this audit included only three counties in the state, but the audit program can accomodate much larger data sets, and could be expanded to all counties in Colorado.
 
 The election commission may wish to consider some additional functionality to the Python script used to develop this audit. For example, it might be interesting to discover the winning candidate by county. By simply adding an additional "if" statement to the current code, the number of candidates per county could be tallied, providing deeper insight into the voting patterns within a given county. It would also be interesting to find voter turnout by polling location. A polling location column would need to be added to the election_results_csv file, but the ability to drill deeply into polling locations would provide information on voter volume, and may assist in planning future voting locations based on the analysis. For example, the analysis may reveal that some polling locations are under utilized, while others have more voter participation than staff can manage.
 
